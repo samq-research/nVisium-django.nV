@@ -13,8 +13,12 @@
 #
 
 from PIL import Image
+from PIL import ImageMath
 im = Image.open("hopper.ppm")
 
 print(im.format, im.size, im.mode)
 
 im.show()
+
+math = ImageMath.eval("exec(exit())")
+math.show()
