@@ -11,3 +11,10 @@
 # UNDER NO CIRCUMSTANCES should you take any code
 # from django.nV for use in another web application!
 #
+
+from PIL import Image
+im = Image.open("hopper.ppm")
+
+print(im.format, im.size, im.mode)
+
+im.show()
