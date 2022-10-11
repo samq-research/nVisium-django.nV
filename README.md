@@ -1,5 +1,9 @@
-django.nV
-=========
+GHAS 
+[Dependabot vulnerable call](https://github.blog/2022-04-14-dependabot-alerts-now-surface-if-code-is-calling-vulnerability/)
+Uses [Pillow 9.0.0](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
+
+
+This repo uses django.nV from https://github.com/nVisium/django.nV
 
 django.nV is a purposefully vulnerable Django application provided by [nVisium](https://www.nvisium.com/).
 
